@@ -17,16 +17,16 @@ public class Main {
         int positionThree = input.nextInt();
         int positionFour = input.nextInt();
 
-        if ((positionOne == 8)||(positionOne == 9)) {
+        if ((positionOne == 8) || (positionOne == 9)) {
             System.out.println("ignore");
-            } else if ((positionFour == 8)||(positionFour==9)) {
-                System.out.println("ignore");
-            } else if (positionThree == positionFour) {
-                System.out.println("ignore");
-            } else {
-                System.out.println("answer");
-            }
+        } else if ((positionFour == 8) || (positionFour == 9)) {
+            System.out.println("ignore");
+        } else if (positionThree == positionFour) {
+            System.out.println("ignore");
+        } else {
+            System.out.println("answer");
         }
-    }
 
+    }
+}
 
