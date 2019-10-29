@@ -1,10 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 import java.util.Scanner;
+
 /**
  *
  * @author vand5950
@@ -20,20 +16,17 @@ public class Main {
         int positionTwo = input.nextInt();
         int positionThree = input.nextInt();
         int positionFour = input.nextInt();
-        
-       if(positionOne == 8){
-        System.out.println("ignore");
-       } else if(positionOne == 9){
-           System.out.println("ignore");
-       } else if(positionFour == 8){
-           System.out.println("ignore");
-       } else if(positionFour == 9){
-           System.out.println("ignore");
-       } else if(positionThree == positionFour){
-           System.out.println("ignore");
-       } else{
-           System.out.println("answer");
-       }
+
+        if ((positionOne == 8)||(positionOne == 9)) {
+            System.out.println("ignore");
+            } else if ((positionFour == 8)||(positionFour==9)) {
+                System.out.println("ignore");
+            } else if (positionThree == positionFour) {
+                System.out.println("ignore");
+            } else {
+                System.out.println("answer");
+            }
+        }
     }
-    
-}
+
+
