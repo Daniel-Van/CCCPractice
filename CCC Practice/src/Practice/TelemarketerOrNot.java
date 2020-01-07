@@ -1,3 +1,5 @@
+package Practice;
+
 
 import java.util.Scanner;
 
@@ -5,7 +7,7 @@ import java.util.Scanner;
  *
  * @author vand5950
  */
-public class Main {
+public class TelemarketerOrNot {
 
     /**
      * @param args the command line arguments
