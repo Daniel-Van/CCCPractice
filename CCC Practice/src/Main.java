@@ -17,16 +17,23 @@ public class Main {
         int positionThree = input.nextInt();
         int positionFour = input.nextInt();
 
+        int counter = 0;
+
         if ((positionOne == 8) || (positionOne == 9)) {
-            System.out.println("ignore");
-        } else if ((positionFour == 8) || (positionFour == 9)) {
-            System.out.println("ignore");
-        } else if (positionThree == positionFour) {
-            System.out.println("ignore");
-        } else {
+            counter = counter + 1;
+        }
+        if ((positionFour == 8) || (positionFour == 9)) {
+            counter = counter + 1;
+        }
+        if (positionThree == positionFour) {
+            counter = counter + 1;
+        } 
+        
+        if (counter == 4){
             System.out.println("answer");
+        } else{
+            System.out.println("ignore");
         }
 
     }
 }
-
