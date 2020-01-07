@@ -23,16 +23,15 @@ public class Main {
             counter = counter + 1;
         }
         if ((positionFour == 8) || (positionFour == 9)) {
-            counter = counter + 1;
+            counter = counter + 1;   
         }
         if (positionThree == positionFour) {
             counter = counter + 1;
         } 
-        
-        if (counter == 4){
-            System.out.println("answer");
-        } else{
+        if (counter == 3){
             System.out.println("ignore");
+        } else{
+            System.out.println("answer");
         }
 
     }
