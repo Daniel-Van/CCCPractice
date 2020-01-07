@@ -25,7 +25,7 @@ public class Main {
         if ((positionFour == 8) || (positionFour == 9)) {
             counter = counter + 1;   
         }
-        if (positionThree == positionFour) {
+        if (positionTwo == positionThree) {
             counter = counter + 1;
         } 
         if (counter == 3){
